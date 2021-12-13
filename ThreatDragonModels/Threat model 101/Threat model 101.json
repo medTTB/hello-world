@@ -53,16 +53,79 @@
               "angle": 0,
               "id": "f6d9a391-61aa-4351-8852-3d4e0dd1e4ac",
               "z": 2,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "description": "actor 1",
+              "threats": [
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "threatId": "05d8e399-6343-41cf-b3b2-2273b9bec26a"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Tampering",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "threatId": "1aef6c01-4492-422b-95a8-e7158d9d7908"
+                },
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Spoofing",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic spoofing threat",
+                  "threatId": "8a68b101-7609-4fac-82b4-3d428e1d0c4e"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "threatId": "2c7a8dd5-abec-46e9-b2ac-9d13b8fd9dae"
+                },
+                {
+                  "ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+                  "title": "Generic spoofing threat",
+                  "type": "Information disclosure",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "High",
+                  "description": "A generic spoofing threat",
+                  "threatId": "dbeab217-4062-444c-912d-4cf75537aeca"
+                },
+                {
+                  "ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+                  "title": "Generic repudiation threat",
+                  "type": "Repudiation",
+                  "modelType": "STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "A generic repudiation threat",
+                  "threatId": "0619e555-ef22-491d-864d-030fbc4b9ec1"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "actor 1"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -224,7 +287,12 @@
               "target": {
                 "id": "f6d9a391-61aa-4351-8852-3d4e0dd1e4ac"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 285,
+                  "y": 90
+                }
+              ],
               "id": "a2e58904-0079-4a21-b107-d59be7dbb7dc",
               "labels": [
                 {
